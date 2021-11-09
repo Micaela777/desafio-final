@@ -1,0 +1,473 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Primera sección comienzo */
+.primera-seccion {
+  width: 100%;
+  max-height: 594px;
+  background-color: #0c0809;
+}
+
+.header {
+  padding: 0 17px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0c0809;
+}
+
+.pri-sec-logo-uno {
+  width: 74px;
+  height: 70px;
+}
+@media (min-width: 769px) {
+  .pri-sec-logo-uno {
+    width: 100px;
+    height: 103px;
+    margin: 10px 60px;
+  }
+}
+
+.pri-sec-logo-dos {
+  width: 46px;
+  height: 42px;
+  margin-top: 15px;
+}
+@media (min-width: 769px) {
+  .pri-sec-logo-dos {
+    display: none;
+  }
+}
+
+.pri-sec-menu {
+  display: none;
+}
+@media (min-width: 769px) {
+  .pri-sec-menu {
+    margin-right: 60px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+  }
+}
+
+.pri-sec-info {
+  font-size: 24px;
+  font-family: "Californian FB";
+  -webkit-text-fill-color: #e7bb74;
+}
+
+.pri-sec-elementos-contenedor {
+  padding-top: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+}
+@media (min-width: 769px) {
+  .pri-sec-elementos-contenedor {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+.pri-sec-titulo-contenedor {
+  max-width: 291px;
+}
+@media (min-width: 769px) {
+  .pri-sec-titulo-contenedor {
+    padding-bottom: 230px;
+    padding-left: 90px;
+  }
+}
+
+.pri-sec-titulo {
+  font-size: 33px;
+  text-align: center;
+  font-family: "Cinzel Decorative";
+  -webkit-text-fill-color: #8b6969;
+}
+@media (min-width: 769px) {
+  .pri-sec-titulo {
+    text-align: start; 
+  }
+}
+
+.pri-sec-imagen-contenedor {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 769px) {
+  .pri-sec-imagen-contenedor {
+    padding-right: 110px;
+  }
+}
+
+.pri-sec-imagen {
+  width: 256px;
+  height: 308px;
+}
+@media (min-width: 769px) {
+  .pri-sec-imagen {
+    width: 317px;
+    height: 377px;
+  }
+}
+/* Primera sección final */
+
+/* Segunda sección comienzo */
+.segunda-seccion {
+  width: 100%;
+  height: 538px;
+  background-color: #8b6969;
+}
+
+.seg-sec-contenedor {
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+@media(min-width: 769px){
+  .seg-sec-contenedor{
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 110px 90px
+  }
+}
+
+.seg-sec-textos-contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px
+}
+@media(min-width: 769px){
+  .seg-sec-textos-contenedor{
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+.seg-sec-titulo {
+  font-size: 32px;
+  font-family: "Cinzel Decorative";
+  -webkit-text-fill-color: #0c0809;
+}
+@media(min-width: 769px){
+  .seg-sec-titulo{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.seg-sec-parrafo-contenedor{
+  max-width: 312px;
+}
+@media(min-width: 769px){
+  .seg-sec-parrafo-contenedor{
+    max-width: 666px;
+    padding-top: 25px
+  }
+}
+
+.seg-sec-parrafo {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Californian FB";
+  -webkit-text-fill-color: #0c0809;
+}
+@media(min-width: 769px){
+  .seg-sec-parrafo{
+    font-size: 20px;
+    text-align: start;
+  }
+}
+
+.seg-sec-imagen-contenedor{
+  padding-top: 12px;
+}
+@media(min-width: 769px){
+  .seg-sec-imagen-contenedor{
+    padding-bottom: 50px;
+    grid-row: 1 / span 2;
+    justify-self: center;
+  }
+}
+
+.seg-sec-imagen {
+  width: 80px;
+  height: 80px;
+}
+@media(min-width: 769px){
+  .seg-sec-imagen {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Segunda sección final */
+
+/* Tercera sección comienzo */
+.tercera-seccion {
+  width: 100%;
+  height: 1375px;
+  background-color: #0c0809;
+}
+@media(min-width: 769px){
+  .tercera-seccion {
+    height: 650px;
+  }
+}
+
+.ter-sec-titulo-contenedor {
+  padding: 68px;
+}
+@media(min-width: 769px){
+  .ter-sec-titulo-contenedor {
+    padding: 80px;
+  }
+}
+
+.ter-sec-titulo {
+  margin: 0;
+  font-size: 32px;
+  text-align: center;
+  font-family: "Cinzel Decorative";
+  -webkit-text-fill-color: #8b6969;
+}
+@media(min-width: 769px){
+  .ter-sec-titulo {
+    font-size: 38px;
+  }
+}
+
+.ter-sec-contenedor {
+  width: 271px;
+  height: 1243px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 97px;
+}
+
+@media(min-width: 769px){
+  .ter-sec-contenedor {
+    width: auto;
+    height: auto;
+    margin: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0;
+  }
+}
+
+.ter-sec-elementos-contenedor {
+  width: 271px;
+  height: 312px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ter-sec-logo {
+  width: 138px;
+  height: 138px;
+}
+
+.ter-sec-subtitulo {
+  margin: 17px;
+  font-size: 24px;
+  font-family: "Cinzel Decorative";
+  -webkit-text-fill-color: #8b6969;
+}
+
+.ter-sec-parrafo {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Californian FB";
+  -webkit-text-fill-color: #8b6969;
+}
+@media(min-width: 769px){
+  .ter-sec-parrafo{
+    font-size: 18px
+  }
+}
+
+/* Tercera sección final */
+
+/* Cuarta sección comienzo */
+.cuarta-seccion {
+  width: 100%;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8b6969;
+}
+
+.cuar-sec-contenedor {
+  width: 335px;
+  height: 428px;
+  margin: 31px 20px;
+  display: grid;
+  gap: 27px;
+}
+@media(min-width: 769px){
+  .cuar-sec-contenedor{
+    width: auto;
+    margin: 116px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 
+  }
+}
+
+.cuar-sec-titulo-contenedor {
+  padding-top: 20px;
+}
+@media(min-width: 769px){
+  .cuar-sec-titulo-contenedor{
+    padding: 0;
+    grid-row: 1 / span 4;
+    align-self: flex-start
+  }
+}
+
+.cuar-sec-titulo {
+  font-size: 32px;
+  text-align: center;
+  font-family: "Cinzel Decorative";
+  -webkit-text-fill-color: #0c0809;
+}
+@media(min-width: 769px){
+  .cuar-sec-titulo{
+    margin: auto;
+    font-size: 42px;
+  }
+}
+
+.cuar-sec-fieldset-contenedor{
+}
+
+.label {
+  font-size: 16px;
+  font-family: "Californian FB";
+}
+
+.input-text,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Californian FB";
+}
+
+.button {
+  width: 100%;
+  padding: 13px;
+  font-size: 16px;
+  font-family: "Californian FB";
+  border: none;
+  background-color: #fdbe59;
+}
+
+/* Cuarta sección final */
+
+/* Quinta sección comienzo*/
+.quinta-seccion {
+  width: 100%;
+  height: 493px;
+  background-color: black;
+}
+
+.quin-sec-contenedor {
+  padding: 37px 23px;
+  display: flex;
+  flex-direction: column;
+}
+@media(min-width: 769px){
+  .quin-sec-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px
+  }
+}
+
+.quin-sec-part-uno{
+  display: flex;
+  flex-direction: column
+}
+@media(min-width: 769px){
+  .quin-sec-part-uno{
+    padding-left: 45px
+  }
+}
+
+.quin-sec-logo {
+  width: 100px;
+  height: 107px;
+}
+@media(min-width: 769px){
+  .quin-sec-logo{
+    width: 150px;
+    height: 155px;
+  }
+}
+
+.quin-sec-little-text {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Perpetua";
+  -webkit-text-fill-color: #9c9797;
+}
+@media(min-width: 769px){
+  .quin-sec-little-text{
+    padding-left: 22px
+  }
+}
+
+.quin-sec-part-dos {
+  padding-top: 53px;
+}
+@media(min-width: 769px){
+  .quin-sec-part-dos{
+    padding-right: 150px
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.quin-sec-imagen {
+  width: 27px;
+  height: 27px;
+}
+
+.titulo-de-las-imagenes {
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: "Book Antiqua";
+  -webkit-text-fill-color: #9c9797;
+}
+
+/* Quinta sección final */
