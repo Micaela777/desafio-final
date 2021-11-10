@@ -59,6 +59,7 @@ body {
 
 .pri-sec-info {
   font-size: 24px;
+  font-family: "Californian FB";
   -webkit-text-fill-color: #e7bb74;
 }
 
@@ -185,6 +186,7 @@ body {
   margin: 0;
   font-size: 16px;
   text-align: center;
+  font-family: "cursive";
   -webkit-text-fill-color: #0c0809;
 }
 @media(min-width: 769px){
@@ -298,6 +300,7 @@ body {
   margin: 0;
   font-size: 16px;
   text-align: center;
+  font-family: "cursive";
   -webkit-text-fill-color: #8b6969;
 }
 @media(min-width: 769px){
@@ -361,6 +364,7 @@ body {
 
 .label {
   font-size: 16px;
+  font-family: "cursive";
 }
 
 .input-text,
@@ -368,12 +372,14 @@ body {
   width: 100%;
   padding: 10px;
   font-size: 16px;
+  font-family: "cursive";
 }
 
 .button {
   width: 100%;
   padding: 13px;
   font-size: 16px;
+  font-family: "cursive";
   border: none;
   background-color: #fdbe59;
 }
@@ -426,6 +432,7 @@ body {
 .quin-sec-little-text {
   margin: 0;
   font-size: 15px;
+  font-family: "cursive";
   -webkit-text-fill-color: #9c9797;
 }
 @media(min-width: 769px){
@@ -456,7 +463,9 @@ body {
 .titulo-de-las-imagenes {
   margin-left: 10px;
   font-size: 18px;
+  font-family: "cursive";
   -webkit-text-fill-color: #9c9797;
 }
 
 /* Quinta sección final */
+
